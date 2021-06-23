@@ -1,0 +1,102 @@
+header{
+	position: fixed;
+	background-color: #4DBB1A;
+	top: 0;
+	width: 100%;
+}
+
+h2, h3{
+	text-align: center;
+}
+
+.Links{
+	text-align: center;
+	margin-left: 45%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	position: fixed;
+	background-color: #4DBB1A;
+	bottom: 0;
+	width: 100%;
+  	text-align: center;
+}
+
+.generalBackground{
+	background-color: #E7F6E8;
+}
+
+form{
+    padding: 15%;
+    text-align: left;
+    margin: auto;
+    display: table;
+}
+table{
+   	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 15%;
+  	transform: scale(0.8)
+  }
+td, th{
+	width: 50px;
+	border: 1px solid #dddddd;
+	text-align: center;
+ 	padding: 8px;
+}
+.btn{
+	border: none;
+	background-color: inherit;
+	display: inline-block;
+	cursor: pointer;
+}
+.btnPeso{
+	display: flex;
+	margin: auto;
+  	background-color: #E7F6E8;
+  	color: black;
+  	border: 2px solid #4CAF50; /* Green */
+  	transition-duration: 0.4s;
+}
+.btnPeso:hover {
+	background-color: #4CAF50;
+ 	color: white;
+}
+.btnAbout{
+		margin-top: 500%;
+  	background-color: #E7F6E8;
+  	color: black;
+  	border: 2px solid #4CAF50; /* Green */
+  	transition-duration: 0.4s;
+}
+.btnAbout:hover {
+	background-color: #4CAF50;
+ 	color: white;
+}
+
+li{
+	display: inline;
+}
+
+.li1{
+	
+	margin-left:44%;
+}
+.li2{
+	margin-left: 8px;
+}
+
+.pSobre{
+	position: absolute;
+	top: 30%;
+	left: 15%;
+}
+
+a{
+	color: inherit;
+}
